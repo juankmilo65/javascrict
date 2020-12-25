@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tamplate Literal - Expressions</title>
+</head>
+<body>
+  <script>
+    const name = 'JuanK';
+    console.log(`Mi nombre es: ${name}`)
+    console.log(`Mi nombre es: ${(function name(){return 'Camilo'})()}`)
+    console.log(`Mi nombre es: ${['a', 'b'].map(leter =>(`${leter}-style`))}`)
+  </script>
+</body>
+</html>
